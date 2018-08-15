@@ -1,0 +1,47 @@
+{
+"diet_duration": 20,
+"week_diet_data": {
+"thursday": [
+{
+"food": "scramblled eggs",
+"meal_time": "08:00"
+},
+{
+"food": "Burrito bowls",
+"meal_time": "14:00"
+},
+{
+"food": "Evening snacks",
+"meal_time": "18:00"
+},
+{
+"food": "North Indian thali",
+"meal_time": "22:00"
+}
+],
+"wednesday": [
+{
+"food": "Sprouts",
+"meal_time": "07:00"
+},
+{
+"food": "Bread lintils and Rice",
+"meal_time": "16:00"
+},
+{
+"food": "Soup, Rice and Chicken",
+"meal_time": "21:00"
+}
+],
+"monday": [
+{
+"food": "Warm honey and water",
+"meal_time": "07:00"
+},
+{
+"food": "proper thali",
+"meal_time": "15:00"
+}
+]
+}
+}

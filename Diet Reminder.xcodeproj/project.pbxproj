@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B8D4C02123F5FA00803CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8D4BF2123F5FA00803CCB /* AppDelegate.swift */; };
+		18B8D4C22123F5FA00803CCB /* DietPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8D4C12123F5FA00803CCB /* DietPlanVC.swift */; };
+		18B8D4C52123F5FA00803CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B8D4C32123F5FA00803CCB /* Main.storyboard */; };
+		18B8D4C72123F5FC00803CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B8D4C62123F5FC00803CCB /* Assets.xcassets */; };
+		18B8D4CA2123F5FC00803CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B8D4C82123F5FC00803CCB /* LaunchScreen.storyboard */; };
+		18B8D4D22123F64E00803CCB /* DietPlan.json in Resources */ = {isa = PBXBuildFile; fileRef = 18B8D4D12123F64E00803CCB /* DietPlan.json */; };
+		18B8D4D42123F80F00803CCB /* MealTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8D4D32123F80F00803CCB /* MealTableCell.swift */; };
+		18B8D4D62123FA1F00803CCB /* DietPlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8D4D52123FA1F00803CCB /* DietPlanModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18B8D4BC2123F5FA00803CCB /* Diet Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diet Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B8D4BF2123F5FA00803CCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18B8D4C12123F5FA00803CCB /* DietPlanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietPlanVC.swift; sourceTree = "<group>"; };
+		18B8D4C42123F5FA00803CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B8D4C62123F5FC00803CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B8D4C92123F5FC00803CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18B8D4CB2123F5FC00803CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B8D4D12123F64E00803CCB /* DietPlan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DietPlan.json; sourceTree = "<group>"; };
+		18B8D4D32123F80F00803CCB /* MealTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableCell.swift; sourceTree = "<group>"; };
+		18B8D4D52123FA1F00803CCB /* DietPlanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietPlanModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B8D4B92123F5FA00803CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B8D4B32123F5FA00803CCB = {
+			isa = PBXGroup;
+			children = (
+				18B8D4BE2123F5FA00803CCB /* Diet Reminder */,
+				18B8D4BD2123F5FA00803CCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B8D4BD2123F5FA00803CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B8D4BC2123F5FA00803CCB /* Diet Reminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B8D4BE2123F5FA00803CCB /* Diet Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				18B8D4BF2123F5FA00803CCB /* AppDelegate.swift */,
+				18B8D4C12123F5FA00803CCB /* DietPlanVC.swift */,
+				18B8D4C32123F5FA00803CCB /* Main.storyboard */,
+				18B8D4C62123F5FC00803CCB /* Assets.xcassets */,
+				18B8D4C82123F5FC00803CCB /* LaunchScreen.storyboard */,
+				18B8D4CB2123F5FC00803CCB /* Info.plist */,
+				18B8D4D12123F64E00803CCB /* DietPlan.json */,
+				18B8D4D32123F80F00803CCB /* MealTableCell.swift */,
+				18B8D4D52123FA1F00803CCB /* DietPlanModel.swift */,
+			);
+			path = "Diet Reminder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B8D4BB2123F5FA00803CCB /* Diet Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B8D4CE2123F5FC00803CCB /* Build configuration list for PBXNativeTarget "Diet Reminder" */;
+			buildPhases = (
+				18B8D4B82123F5FA00803CCB /* Sources */,
+				18B8D4B92123F5FA00803CCB /* Frameworks */,
+				18B8D4BA2123F5FA00803CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Diet Reminder";
+			productName = "Diet Reminder";
+			productReference = 18B8D4BC2123F5FA00803CCB /* Diet Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B8D4B42123F5FA00803CCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Aakash Srivastav";
+				TargetAttributes = {
+					18B8D4BB2123F5FA00803CCB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 18B8D4B72123F5FA00803CCB /* Build configuration list for PBXProject "Diet Reminder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B8D4B32123F5FA00803CCB;
+			productRefGroup = 18B8D4BD2123F5FA00803CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B8D4BB2123F5FA00803CCB /* Diet Reminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B8D4BA2123F5FA00803CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B8D4D22123F64E00803CCB /* DietPlan.json in Resources */,
+				18B8D4CA2123F5FC00803CCB /* LaunchScreen.storyboard in Resources */,
+				18B8D4C72123F5FC00803CCB /* Assets.xcassets in Resources */,
+				18B8D4C52123F5FA00803CCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B8D4B82123F5FA00803CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B8D4D62123FA1F00803CCB /* DietPlanModel.swift in Sources */,
+				18B8D4D42123F80F00803CCB /* MealTableCell.swift in Sources */,
+				18B8D4C22123F5FA00803CCB /* DietPlanVC.swift in Sources */,
+				18B8D4C02123F5FA00803CCB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18B8D4C32123F5FA00803CCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B8D4C42123F5FA00803CCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18B8D4C82123F5FC00803CCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B8D4C92123F5FC00803CCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B8D4CC2123F5FC00803CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18B8D4CD2123F5FC00803CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B8D4CF2123F5FC00803CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Diet Reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DietReminder.beta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B8D4D02123F5FC00803CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Diet Reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DietReminder.beta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B8D4B72123F5FA00803CCB /* Build configuration list for PBXProject "Diet Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B8D4CC2123F5FC00803CCB /* Debug */,
+				18B8D4CD2123F5FC00803CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B8D4CE2123F5FC00803CCB /* Build configuration list for PBXNativeTarget "Diet Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B8D4CF2123F5FC00803CCB /* Debug */,
+				18B8D4D02123F5FC00803CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B8D4B42123F5FA00803CCB /* Project object */;
+}
